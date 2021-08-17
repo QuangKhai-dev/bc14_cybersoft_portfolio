@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?7bb2f91bf7cb48d5ccfbd782f651ccb0") format("truetype"),
+url("./flaticon.woff?7bb2f91bf7cb48d5ccfbd782f651ccb0") format("woff"),
+url("./flaticon.woff2?7bb2f91bf7cb48d5ccfbd782f651ccb0") format("woff2"),
+url("./flaticon.eot?7bb2f91bf7cb48d5ccfbd782f651ccb0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7bb2f91bf7cb48d5ccfbd782f651ccb0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-startup:before {
+    content: "\f101";
+}
+.flaticon-confetti:before {
+    content: "\f102";
+}
+.flaticon-line-chart:before {
+    content: "\f103";
+}
+.flaticon-rocket:before {
+    content: "\f104";
+}
+.flaticon-idea:before {
+    content: "\f105";
+}
+.flaticon-code:before {
+    content: "\f106";
+}
+.flaticon-message:before {
+    content: "\f107";
+}
+.flaticon-sent:before {
+    content: "\f108";
+}
